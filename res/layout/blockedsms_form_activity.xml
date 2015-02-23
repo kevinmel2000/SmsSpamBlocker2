@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:animateLayoutChanges="true" >
+
+	<LinearLayout
+		android:id="@+id/blockedSms_linearLayout_container"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:paddingBottom="30dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:paddingTop="30dp" >
+
+		<TextView
+			android:id="@+id/blockedSms_textView_id"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="Id"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/blockedSms_editText_id"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Id ... "
+			android:padding="10dp"
+			android:singleLine="true" />
+
+		<TextView
+			android:id="@+id/blockedSms_textView_number"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="Number"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/blockedSms_editText_number"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Number ... "
+			android:padding="10dp"
+			android:singleLine="true" />
+
+		<TextView
+			android:id="@+id/blockedSms_textView_content"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="Content"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/blockedSms_editText_content"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="Content ... "
+			android:padding="10dp"
+			android:singleLine="true" />
+
+		<TextView
+			android:id="@+id/blockedSms_textView_dateTime"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="DateTime"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/blockedSms_editText_dateTime"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="DateTime ... "
+			android:padding="10dp"
+			android:singleLine="true" />
+
+		<TextView
+			android:id="@+id/blockedSms_textView_blockedBy"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="BlockedBy"
+			android:textStyle="bold" />
+
+		<EditText
+			android:id="@+id/blockedSms_editText_blockedBy"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="BlockedBy ... "
+			android:padding="10dp"
+			android:singleLine="true" />
+
+		<TextView
+			android:id="@+id/blockedSms_textView_isOpened"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="5dp"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:paddingTop="10dp"
+			android:text="IsOpened"
+			android:textStyle="bold" />
+
+		<RadioGroup
+			android:id="@+id/blockedSms_radioGroup_isOpened"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<RadioButton
+				android:id="@+id/blockedSms_radioButton_isOpened1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10dp"
+				android:text="True" />
+
+			<RadioButton
+				android:id="@+id/blockedSms_radioButton_isOpened2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:checked="true"
+				android:text="False" />
+		</RadioGroup>
+
+	</LinearLayout>
+</RelativeLayout>
+

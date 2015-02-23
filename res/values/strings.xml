@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS <b>Spam Blocker</b></string>
+	
+    <string name="title_home">SMS Spam Blocker</string>
+    <string name="title_formAddNumber">Add Number</string>
+    <string name="title_formAddPhrase">Add Phrase</string>
+    
+    <string-array name="string_array_title_view_pager">
+        <item>HOME</item>
+        <item>NUMBER</item>
+        <item>PHRASE</item>
+        <item>BLOCKED SMS</item>
+    </string-array>
+    
+    <string name="button_add">ADD</string>
+    
+    <string name="home_logo_text">SMS Spam Blocker</string>
+    <string name="home_logo_slogan">Go away spammer!</string>
+    <string name="home_version">v 2.0</string>
+    
+    <string name="sender_form_activity_numberOrName">Number or Name</string>
+    <string name="sender_form_activity_info">- Include number with country code, e.g: <b>+628xxxxxxxx</b> \n\n
+        - Name is case INSENSITIVE, e.g: <b>ADS</b> is equal with <b>AdS</b> and <b>ads</b>
+        </string>
+    <string name="sender_form_activity_dialogMessageSave">Saved</string>
+    <string name="sender_form_activity_dialogMessageUpdate">Updated</string>
+    <string name="sender_form_activity_dialogMessageFailed">There was something wrong, please try again</string>
+    
+    <string name="sender_form_activity_buttonSave">SAVE</string>
+    <string name="sender_form_activity_buttonUpdate">UPDATE</string>
+    
+    <string name="sender_form_activity_validateNumberError">* Number or Name can not be empty\n</string>
+    
+    
+    
+    
+    <string name="content_form_activity_phrase">Phrase</string>
+    <string name="content_form_activity_info">- Phrase is case INSENSITIVE, e.g: <b>ADS</b> is equal with <b>AdS</b> and <b>ads</b></string>
+    <string name="content_form_activity_dialogMessageSave">Saved</string>
+    <string name="content_form_activity_dialogMessageUpdate">Updated</string>
+    <string name="content_form_activity_dialogMessageFailed">There was something wrong, please try again</string>
+    
+    <string name="content_form_activity_buttonSave">SAVE</string>
+    <string name="content_form_activity_buttonUpdate">UPDATE</string>
+    
+    <string name="content_form_activity_validateContentError">* Phrase can not be empty\n</string>
+    
+    <string name="content_form_activity_radioButtonPosition1"><b>Beginning</b> \n 
+        Phrase e.g: <b>Ads</b> is match with all message start with \"Ads bla bla bla\".
+        </string>
+    <string name="content_form_activity_radioButtonPosition2"><b>Anywhere</b> \n 
+        Phrase e.g: <b>Ads</b> is match with all message \"Ads bla bla bla\", \"Bla bla ads bla bla\", \"Bla bla ads bla ads\"
+        </string>
+    <string name="content_form_activity_radioButtonPosition3"><b>End</b> \n 
+        Phrase e.g: <b>Ads</b> is match with all message end with \"Bla bla ads bla ads\"</string>
+        
+    
+    
+</resources>
